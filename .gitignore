@@ -1,0 +1,8 @@
+node_modules/
+
+# vim persistent undo
+[._]*.un~
+
+# temporary
+*~
+

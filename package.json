@@ -1,0 +1,37 @@
+{
+  "name": "berit.github.io",
+  "version": "1.0.0",
+  "description": "Berit's personal website",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berit/berit.github.io.git"
+  },
+  "author": "Berit Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berit/berit.github.io/issues"
+  },
+  "homepage": "https://github.com/berit/berit.github.io#readme"
+}
